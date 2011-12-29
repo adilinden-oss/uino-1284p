@@ -1,0 +1,8 @@
+# Ignore Mac OS X
+.DS_Store
+
+# Ignore Eagle backups
+*.l#?
+*.b#?
+*.s#?
+
