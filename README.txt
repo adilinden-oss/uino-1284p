@@ -30,13 +30,16 @@ this project is to be able to access more memory, both FLASH and RAM, while
 keeping the Arduino UNO compatible board size and I/O assignments.
 
 The ATmega1284P provides 128k of FLASH and 16k of RAM. It has 10 more I/O pins
-then the ATmega328P. It was by design that the additional I/O has not been
-brought out to a header. Maybe a future revision might revisit providing access
-to the extra I/O.
+then the ATmega328P. The additional I/O pins are brought out to a 5x2 header
+in a non-standard Arduino position.
 
-The design also uses a dedicated ATmega8U2 for USB connectivity. The circuit
+The design features a dedicated ATmega8U2 for USB connectivity. The circuit
 has been taken from the Arduino UNO but the TQFP-32 package was chosen for easy
 solderability.
+
+Power supply input for the board is selected via a jumper. Power supply options
+are USB bus powered or unregulated DC input. An onboard LDO regulator will accept
+an unregulated input voltage between 6.4V and 15V.
 
 Pin Mapping
 -----------
