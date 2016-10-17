@@ -1,9 +1,5 @@
 *uino-1284p is an Arduino compatible platform based on the ATmega1284P-AU
 
-IMPORTANT NOTE
---------------
-This hardware design has not been tested! No working boards exist!
-
 Licensing
 ---------
 This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 
@@ -20,7 +16,7 @@ license.
 
 Credit
 ------
-The *uino-32u4 is derived from previous work done by:
+The *uino-1284p is derived from previous work done by:
 - The Arduino team <http://arduino.cc/>
 
 Details
@@ -41,45 +37,66 @@ Power supply input for the board is selected via a jumper. Power supply options
 are USB bus powered or unregulated DC input. An onboard LDO regulator will accept
 an unregulated input voltage between 6.4V and 15V.
 
+Arduino
+-------
+The board is supported in Arduino IDE 1.6.x via the core files available at:
+https://github.com/adilinden/uino-arduino
+
+To install clone uino-arduino into the hardware folder inside your Sketchbook
+folder. The board will then automagically appear in the Boards menu.
+
 Pin Mapping
 -----------
-*uino	ATmega1284p			            Function
-A0	    32 - PA5 (PCINT7/ADC5)
-A1	    33 - PA4 (PCINT7/ADC4)
-A2	    34 - PA3 (PCINT7/ADC3)
-A3	    35 - PA2 (PCINT7/ADC2)
-A4	    36 - PA1 (PCINT7/ADC1)
-A5	    37 - PA0 (PCINT7/ADC0)
 
-D0	    9  - PD0 (PCINT24/RXD0/T3)      UART RX0
-D1	    10 - PD1 (PCINT25/TXD0)         UART TX0
-D2	    11 - PD2 (PCINT26/RXD1/INT0)    IRQ2, UART RX1
-D3	    12 - PD3 (PCINT27/TXD1/INT1)    IRQ3, UART TX1
-D4	    13 - PD4 (PCINT28/XCK1/OC1B)    PWM
-D5	    14 - PD5 (PCINT29/OC1A)         PWM
-D6	    15 - PD6 (PCINT30/OC2B/ICP)     PWM
-D7	    16 - PD7 (PCINT31/OC2A)         PWM
+Note that the pin mappings do not quite match the schematic diagram.  Header
+J6 which is the 5x2 header provided for additional I/O has been renumbered.
+The schematic diagram will have to be updated some time.  Since these are not
+labelled on the board there are no other visible changes.
 
-D8	    42 - PB2 (PCINT10/INT2/AIN0)	
-D9	    43 - PB3 (PCINT11/OC0A/AIN1)    PWM
-D10	    44 - PB4 (PCINT12/OC0B/SS)      PWM, SPI SS
-D11	    1  - PB5 (PCINT13/ICP3/MOSI)    SPI MOSI
-D12	    2  - PB6 (PCINT14/OC3A/MISO)    PWM, SPI MISO
-D13	    3  - PB7 (PCINT15/OC3B/SCK)	    PWM, SPI SCK, LED
+The new header pins are now:
 
-SCL	    19 - PC0 (PCINT16/SCL)          SCL
-SDA	    20 - PC1 (PCINT17/SDA)          SDA
-L1	    21 - PC2 (PCINT18/TCK)          L1
-L2	    22 - PC3 (PCINT19/TMS)          L2
+		L1/D16  o|o  L2/D17
+		   D18  o|o  D19
+		   D20  o|o  D21
+		   D22  o|o  D23
+		D24/A6  o|o  D25/A7
+		
 
-A7 	    31 - PA6 (PCINT6/ADC6)
-A6 	    30 - PA7 (PCINT7/ADC7)
+*uino     ATmega1284p                     Function
+A0  D26   32 - PA5 (PCINT7/ADC5)
+A1  D27   33 - PA4 (PCINT7/ADC4)
+A2  D28   34 - PA3 (PCINT7/ADC3)
+A3  D29   35 - PA2 (PCINT7/ADC2)
+A4  D30   36 - PA1 (PCINT7/ADC1)
+A5  D31   37 - PA0 (PCINT7/ADC0)
 
-D16	    23 - PC4 (PCINT20/TDO)
-D17	    24 - PC5 (PCINT21/TDI)
-D18	    25 - PC6 (PCINT22/TOSC1)
-D19	    26 - PC7 (PCINT23/TOSC2)
+D0        9  - PD0 (PCINT24/RXD0/T3)      UART RX0
+D1        10 - PD1 (PCINT25/TXD0)         UART TX0
+D2        11 - PD2 (PCINT26/RXD1/INT0)    IRQ2, UART RX1
+D3        12 - PD3 (PCINT27/TXD1/INT1)    IRQ3, UART TX1
+D4        13 - PD4 (PCINT28/XCK1/OC1B)    PWM
+D5        14 - PD5 (PCINT29/OC1A)         PWM
+D6        15 - PD6 (PCINT30/OC2B/ICP)     PWM
+D7        16 - PD7 (PCINT31/OC2A)         PWM
 
-D20	    40 - PB0 (PCINT8/T0/XCK0)
-D21	    41 - PB1 (PCINT9/T1/CLK0)
+D8        42 - PB2 (PCINT10/INT2/AIN0)  
+D9        43 - PB3 (PCINT11/OC0A/AIN1)    PWM
+D10       44 - PB4 (PCINT12/OC0B/SS)      PWM, SPI SS
+D11       1  - PB5 (PCINT13/ICP3/MOSI)    SPI MOSI
+D12       2  - PB6 (PCINT14/OC3A/MISO)    PWM, SPI MISO
+D13       3  - PB7 (PCINT15/OC3B/SCK)     PWM, SPI SCK, LED
+
+SCL D14   19 - PC0 (PCINT16/SCL)          SCL
+SDA D15   20 - PC1 (PCINT17/SDA)          SDA
+L1  D16   21 - PC2 (PCINT18/TCK)          L1
+L2  D17   22 - PC3 (PCINT19/TMS)          L2
+
+D18       23 - PC4 (PCINT20/TDO)
+D19       24 - PC5 (PCINT21/TDI)
+D20       25 - PC6 (PCINT22/TOSC1)
+D21       26 - PC7 (PCINT23/TOSC2)
+D22       40 - PB0 (PCINT8/T0/XCK0)
+D23       41 - PB1 (PCINT9/T1/CLK0)
+D24  A6   30 - PA7 (PCINT7/ADC7)
+D25  A7   31 - PA6 (PCINT6/ADC6)
 
