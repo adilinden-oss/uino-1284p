@@ -63,12 +63,12 @@ The new header pins are now:
 		
 
 *uino     ATmega1284p                     Function
-A0  D26   32 - PA5 (PCINT7/ADC5)
-A1  D27   33 - PA4 (PCINT7/ADC4)
-A2  D28   34 - PA3 (PCINT7/ADC3)
-A3  D29   35 - PA2 (PCINT7/ADC2)
-A4  D30   36 - PA1 (PCINT7/ADC1)
-A5  D31   37 - PA0 (PCINT7/ADC0)
+A0  D26   32 - PA5 (PCINT5/ADC5)
+A1  D27   33 - PA4 (PCINT4/ADC4)
+A2  D28   34 - PA3 (PCINT3/ADC3)
+A3  D29   35 - PA2 (PCINT2/ADC2)
+A4  D30   36 - PA1 (PCINT1/ADC1)
+A5  D31   37 - PA0 (PCINT0/ADC0)
 
 D0        9  - PD0 (PCINT24/RXD0/T3)      UART RX0
 D1        10 - PD1 (PCINT25/TXD0)         UART TX0
