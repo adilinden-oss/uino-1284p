@@ -1,4 +1,6 @@
-##\*uino-1284p is an Arduino compatible platform based on the ATmega1284P-AU
+##\*uino-1284p 
+
+\*uino-1284p is an Arduino compatible platform based on the Atmel ATmega1284P-AU microcontroller.
 
 ###Licensing
 
