@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -16382,8 +16382,8 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="LED4" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="RX (Yellow)"/>
-<part name="LED5" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="TX (Yellow)"/>
+<part name="E4" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="RX (Yellow)"/>
+<part name="E5" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="TX (Yellow)"/>
 <part name="R8" library="rcl" deviceset="R-US_" device="R0805" value="1k"/>
 <part name="R9" library="rcl" deviceset="R-US_" device="R0805" value="1k"/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
@@ -16402,7 +16402,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="C4" library="rcl" deviceset="C-US" device="C0805" value="0.1u"/>
 <part name="C5" library="rcl" deviceset="CPOL-US" device="CT3216" value="10u"/>
 <part name="R5" library="rcl" deviceset="R-US_" device="R0805" value="1k"/>
-<part name="LED3" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="PWR (Green)"/>
+<part name="E3" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="PWR (Green)"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="rcl" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="D2" library="diode" deviceset="MBR0520LT" device="" value="500mA"/>
@@ -16416,10 +16416,10 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="SparkFun" deviceset="VCC" device=""/>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0805" value="1k"/>
-<part name="LED1" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="L1 (Red)"/>
+<part name="E1" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="L1 (Red)"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0805" value="1k"/>
-<part name="LED2" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="L2 (Red)"/>
+<part name="E2" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="L2 (Red)"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="SparkFun" deviceset="VCC" device=""/>
 <part name="C7" library="rcl" deviceset="C-US" device="C0805" value="0.1u"/>
@@ -16449,7 +16449,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <sheet>
 <plain>
 <text x="172.72" y="137.16" size="3.81" layer="94" ratio="18">*uino-1284p</text>
-<text x="172.72" y="133.096" size="2.1844" layer="94" ratio="12">v0.3 2011/12/31</text>
+<text x="172.72" y="133.096" size="2.1844" layer="94" ratio="12">v0.4 2016/11/03</text>
 <text x="172.72" y="129.286" size="2.1844" layer="94" ratio="12">by Adi Linden</text>
 </plain>
 <instances>
@@ -16490,8 +16490,8 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <instance part="GND9" gate="1" x="116.84" y="66.04"/>
 <instance part="P+3" gate="1" x="129.54" y="119.38"/>
 <instance part="GND12" gate="1" x="142.24" y="22.86"/>
-<instance part="LED4" gate="G$1" x="88.9" y="58.42"/>
-<instance part="LED5" gate="G$1" x="99.06" y="58.42"/>
+<instance part="E4" gate="G$1" x="88.9" y="58.42"/>
+<instance part="E5" gate="G$1" x="99.06" y="58.42"/>
 <instance part="R8" gate="G$1" x="88.9" y="66.04" rot="R90"/>
 <instance part="R9" gate="G$1" x="99.06" y="66.04" rot="R90"/>
 <instance part="P+4" gate="1" x="99.06" y="76.2"/>
@@ -16510,24 +16510,24 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <instance part="C4" gate="G$1" x="144.78" y="162.56"/>
 <instance part="C5" gate="G$1" x="154.94" y="162.56"/>
 <instance part="R5" gate="G$1" x="15.24" y="116.84" rot="R90"/>
-<instance part="LED3" gate="G$1" x="15.24" y="109.22"/>
+<instance part="E3" gate="G$1" x="15.24" y="109.22"/>
 <instance part="GND19" gate="1" x="15.24" y="101.6"/>
 <instance part="R7" gate="G$1" x="134.62" y="104.14" rot="R90"/>
 <instance part="D2" gate="G$1" x="129.54" y="104.14" rot="R90"/>
 <instance part="C18" gate="G$1" x="134.62" y="53.34"/>
 <instance part="GND20" gate="1" x="134.62" y="43.18"/>
 <instance part="S1" gate="S" x="116.84" y="30.48" rot="R270"/>
-<instance part="R11" gate="G$1" x="170.18" y="17.78" rot="R180"/>
-<instance part="R12" gate="G$1" x="170.18" y="12.7" rot="R180"/>
+<instance part="R11" gate="G$1" x="180.34" y="17.78" rot="R180"/>
+<instance part="R12" gate="G$1" x="165.1" y="12.7" rot="R180"/>
 <instance part="P+5" gate="1" x="15.24" y="124.46"/>
 <instance part="P+6" gate="1" x="231.14" y="172.72"/>
 <instance part="GND5" gate="1" x="154.94" y="127"/>
 <instance part="P+7" gate="1" x="154.94" y="139.7"/>
 <instance part="R3" gate="G$1" x="88.9" y="132.08" rot="R90"/>
-<instance part="LED1" gate="G$1" x="88.9" y="124.46"/>
+<instance part="E1" gate="G$1" x="88.9" y="124.46"/>
 <instance part="GND21" gate="1" x="88.9" y="116.84"/>
 <instance part="R4" gate="G$1" x="99.06" y="132.08" rot="R90"/>
-<instance part="LED2" gate="G$1" x="99.06" y="124.46"/>
+<instance part="E2" gate="G$1" x="99.06" y="124.46"/>
 <instance part="GND22" gate="1" x="99.06" y="116.84"/>
 <instance part="P+9" gate="1" x="210.82" y="172.72"/>
 <instance part="C7" gate="G$1" x="180.34" y="162.56"/>
@@ -16744,7 +16744,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="E3" gate="G$1" pin="C"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -16759,11 +16759,11 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="E1" gate="G$1" pin="C"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="E2" gate="G$1" pin="C"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -16894,7 +16894,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <segment>
 <wire x1="198.12" y1="27.94" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="27.94" x2="208.28" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="12.7" x2="203.2" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="12.7" x2="203.2" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="12.7" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
 <junction x="203.2" y="27.94"/>
 <label x="208.28" y="27.94" size="1.778" layer="95" rot="MR0"/>
@@ -16911,7 +16911,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <segment>
 <wire x1="198.12" y1="30.48" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="30.48" x2="208.28" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="17.78" x2="200.66" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="17.78" x2="200.66" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="17.78" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
 <junction x="200.66" y="30.48"/>
 <label x="208.28" y="30.48" size="1.778" layer="95" rot="MR0"/>
@@ -17353,20 +17353,20 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <net name="N$26" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="E4" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="E5" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
 <wire x1="88.9" y1="53.34" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="43.18" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="LED4" gate="G$1" pin="C"/>
+<pinref part="E4" gate="G$1" pin="C"/>
 <pinref part="U3" gate="G$1" pin="PD4"/>
 </segment>
 </net>
@@ -17375,7 +17375,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <wire x1="76.2" y1="40.64" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="40.64" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="PD5"/>
-<pinref part="LED5" gate="G$1" pin="C"/>
+<pinref part="E5" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -17398,7 +17398,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <net name="N$34" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="E3" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="A6" class="0">
@@ -17501,7 +17501,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <segment>
 <wire x1="76.2" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="45.72" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="12.7" x2="165.1" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="12.7" x2="160.02" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="PD3(TX)"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 </segment>
@@ -17510,7 +17510,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <segment>
 <wire x1="76.2" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="48.26" x2="106.68" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="17.78" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="17.78" x2="175.26" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="PD2(RX)"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
@@ -17530,13 +17530,13 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="E1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="E2" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="L1" class="0">

@@ -217,10 +217,10 @@
 <text x="20.8578" y="49.1622" size="1.016" layer="21" font="vector" ratio="12" rot="R270">SDA</text>
 <text x="18.3178" y="49.1622" size="1.016" layer="21" font="vector" ratio="12" rot="R270">SCL</text>
 <text x="61.9716" y="30.1112" size="1.016" layer="21" font="vector" ratio="12" rot="R90">1</text>
-<text x="61.9716" y="24.1422" size="1.016" layer="21" font="vector" ratio="12" rot="R90">ICSP</text>
+<text x="63.3852" y="32.1354" size="1.016" layer="21" font="vector" ratio="12">ICSP</text>
 <text x="14.6172" y="44.7084" size="1.016" layer="21" font="vector" ratio="12">ICSP USB</text>
 <text x="16.4978" y="39.1116" size="1.016" layer="21" font="vector" ratio="12" rot="R180">1</text>
-<text x="2.2816" y="47.3832" size="1.016" layer="21" font="vector" ratio="12" rot="R90">RESET</text>
+<text x="8.4968" y="46.0966" size="1.016" layer="21" font="vector" ratio="12" rot="R180">RESET</text>
 <text x="10.1722" y="43.4384" size="1.016" layer="21" font="vector" ratio="12">AUTO</text>
 <text x="9.7912" y="42.1684" size="1.016" layer="21" font="vector" ratio="12">RESET</text>
 <text x="1.0282" y="29.2144" size="1.016" layer="21" font="vector" ratio="12">L1</text>
@@ -233,20 +233,20 @@
 <text x="39.37" y="43.942" size="1.016" layer="21" font="vector" ratio="12">DIGITAL (PWM #)</text>
 <text x="61.0914" y="40.6278" size="1.016" layer="21" font="vector" rot="R270">+</text>
 <text x="33.2862" y="23.6264" size="1.016" layer="21" font="vector">+</text>
-<text x="22.3564" y="7.6078" size="1.016" layer="21" font="vector" rot="R270">+</text>
+<text x="19.1814" y="7.6078" size="1.016" layer="21" font="vector" rot="R270">+</text>
 <text x="28.0714" y="15.8628" size="1.016" layer="21" font="vector" rot="R270">+</text>
 <text x="38.1" y="40.132" size="1.6764" layer="21" font="vector" ratio="18">*uino-1284p</text>
-<text x="38.1" y="38.481" size="1.016" layer="21" font="vector" ratio="12">v0.3 2011/12/31</text>
+<text x="38.1" y="38.481" size="1.016" layer="21" font="vector" ratio="12">v0.4 2016/11/03</text>
 <text x="38.1" y="36.957" size="1.016" layer="21" font="vector" ratio="12">by Adi Linden</text>
 <text x="57.785" y="29.972" size="1.6764" layer="22" font="vector" ratio="18" rot="MR0">*uino-1284p</text>
-<text x="57.785" y="28.321" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">v0.3 2011/12/31</text>
+<text x="57.785" y="28.321" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">v0.4 2016/11/03</text>
 <text x="57.785" y="26.797" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">by Adi Linden</text>
 <text x="55.3764" y="43.8028" size="1.016" layer="21" font="vector" ratio="12" rot="R270">TX1</text>
 <text x="57.912" y="43.815" size="1.016" layer="21" font="vector" ratio="12" rot="R270">RX1</text>
 <text x="22.2128" y="20.8236" size="1.016" layer="21" font="vector" rot="R180">+</text>
 <text x="29.21" y="7.747" size="1.016" layer="21" font="vector" ratio="12">I/O</text>
-<text x="14.478" y="17.653" size="1.016" layer="21" font="vector" ratio="12" rot="R180">USB</text>
-<text x="14.478" y="15.113" size="1.016" layer="21" font="vector" ratio="12" rot="R180">EXT</text>
+<text x="14.224" y="17.018" size="1.016" layer="21" font="vector" ratio="12" rot="R90">USB</text>
+<text x="14.224" y="12.319" size="1.016" layer="21" font="vector" ratio="12" rot="R90">EXT</text>
 <text x="17.526" y="18.288" size="1.016" layer="21" font="vector" ratio="12" rot="R270">POWER</text>
 <text x="1.0282" y="12.5774" size="1.016" layer="21" font="vector" ratio="12">6.4-15V</text>
 <text x="1.0282" y="14.1014" size="1.016" layer="21" font="vector" ratio="12">INPUT</text>
@@ -1289,31 +1289,31 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="J1" library="SparkFun" package="1X06" value="POWER" x="33.02" y="2.54" smashed="yes">
-<attribute name="NAME" x="36.7538" y="-1.3462" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="31.6992" y="1.4732" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="31.75" y="-0.635" size="1.27" layer="27"/>
 </element>
 <element name="J7" library="SparkFun" package="1X06" value="ANALOG" x="50.8" y="2.54" smashed="yes">
-<attribute name="NAME" x="54.5338" y="-1.3462" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="49.4792" y="1.4732" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="49.53" y="-0.635" size="1.27" layer="27"/>
 </element>
 <element name="J8" library="SparkFun" package="1X08" value="IOL" x="63.5" y="50.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="55.9562" y="55.3212" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="44.3992" y="49.7332" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="64.77" y="53.975" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J9" library="adilinden" package="1X10" value="IOH" x="41.656" y="50.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.8422" y="55.3212" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="42.9768" y="51.8668" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="42.926" y="53.975" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J3" library="adilinden" package="2X03" value="" x="64.897" y="27.94" smashed="yes" rot="R270">
-<attribute name="NAME" x="69.977" y="30.48" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="64.897" y="23.876" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="60.452" y="31.75" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="USB" library="adafruit" package="USB-MINIB" value="MINI-USB-SHIELD-UX60-MB-5ST" x="4.445" y="38.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.43" y="39.251" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="10.43" y="39.251" size="0.635" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="-1.905" y="41.41" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U2" library="adilinden" package="TQFP44" value="ATMEGA1284AU" x="46.355" y="20.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.91" y="14.605" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="41.275" y="14.605" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="50.8" y="29.0751" size="1.778" layer="27" rot="R180"/>
 <attribute name="MF" value="" x="46.355" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ATMEGA644PV-10AU" x="46.355" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1321,211 +1321,211 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="58M3748" x="46.355" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U3" library="SparkFun" package="TQFP32-08" value="ATMEGA8U2AU" x="23.495" y="31.115" smashed="yes" rot="R180">
-<attribute name="NAME" x="26.67" y="26.035" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="27.813" y="26.67" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="26.035" y="37.465" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="F1" library="adilinden" package="R0805" value="500mA" x="13.335" y="37.465" smashed="yes">
-<attribute name="NAME" x="15.367" y="38.481" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="14.986" y="36.957" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="12.573" y="35.179" size="1.27" layer="27"/>
 </element>
 <element name="C1" library="rcl" package="C0805" value="0.01u" x="15.24" y="27.305" smashed="yes">
-<attribute name="NAME" x="17.272" y="28.448" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="17.018" y="26.797" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="13.97" y="24.765" size="1.27" layer="27"/>
 </element>
 <element name="C2" library="rcl" package="C0805" value="0.1u" x="15.24" y="22.225" smashed="yes">
-<attribute name="NAME" x="17.272" y="22.987" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="17.018" y="21.717" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="13.97" y="19.685" size="1.27" layer="27"/>
 </element>
 <element name="L1" library="wuerth-elektronik" package="0805" value="Ferrite" x="15.24" y="24.765" smashed="yes">
-<attribute name="NAME" x="17.2085" y="25.654" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="17.145" y="24.4475" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="13.335" y="25.7175" size="0.6096" layer="27"/>
 </element>
 <element name="R1" library="rcl" package="R0805" value="22" x="13.335" y="32.385" smashed="yes">
-<attribute name="NAME" x="15.367" y="33.401" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="15.113" y="31.877" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="12.7" y="29.845" size="1.27" layer="27"/>
 </element>
 <element name="R2" library="rcl" package="R0805" value="22" x="13.335" y="34.925" smashed="yes">
-<attribute name="NAME" x="15.367" y="35.814" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="15.113" y="34.417" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="12.7" y="32.385" size="1.27" layer="27"/>
 </element>
 <element name="X2" library="adafruit" package="NX5032" value="16MHz" x="31.75" y="29.591" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.85" y="26.991" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="32.445" y="26.294" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="34.85" y="26.591" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="X1" library="adafruit" package="NX5032" value="16MHz" x="56.642" y="23.495" smashed="yes" rot="R270">
-<attribute name="NAME" x="58.542" y="26.095" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="54.615" y="24.324" size="0.635" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="53.542" y="26.495" size="1.27" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C17" library="rcl" package="C0805" value="22p" x="34.925" y="31.75" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.195" y="33.02" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="35.814" y="29.972" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="37.465" y="30.48" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C16" library="rcl" package="C0805" value="22p" x="34.925" y="27.432" smashed="yes" rot="R270">
-<attribute name="NAME" x="36.195" y="28.702" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="35.814" y="25.654" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="32.385" y="28.702" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C14" library="rcl" package="C0805" value="22p" x="59.817" y="25.781" smashed="yes" rot="R90">
-<attribute name="NAME" x="58.547" y="24.511" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="59.055" y="27.559" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="62.357" y="24.511" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C15" library="rcl" package="C0805" value="22p" x="59.817" y="21.209" smashed="yes" rot="R270">
-<attribute name="NAME" x="61.087" y="22.479" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="60.706" y="19.431" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="57.277" y="22.479" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="J5" library="adilinden" package="2X03" value="" x="18.415" y="41.91" smashed="yes">
-<attribute name="NAME" x="21.59" y="55.245" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="22.225" y="44.196" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="14.605" y="37.465" size="1.27" layer="27"/>
 </element>
 <element name="C20" library="rcl" package="C0805" value="1u" x="19.685" y="22.225" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.955" y="20.32" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="20.574" y="20.32" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="17.145" y="23.495" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R6" library="rcl" package="R0805" value="10k" x="24.13" y="39.37" smashed="yes" rot="R270">
-<attribute name="NAME" x="24.765" y="41.275" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="23.622" y="41.148" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="21.59" y="40.005" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="LED4" library="adafruit" package="CHIP-LED0805" value="RX (Yellow)" x="5.08" y="20.955" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.429" y="21.59" size="1.016" layer="25" font="vector"/>
+<element name="E4" library="adafruit" package="CHIP-LED0805" value="RX (Yellow)" x="5.08" y="20.955" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.985" y="20.574" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="6.35" y="23.495" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED5" library="adafruit" package="CHIP-LED0805" value="TX (Yellow)" x="5.08" y="23.495" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.429" y="24.13" size="1.016" layer="25" font="vector"/>
+<element name="E5" library="adafruit" package="CHIP-LED0805" value="TX (Yellow)" x="5.08" y="23.495" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.858" y="23.114" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="6.35" y="26.035" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R8" library="rcl" package="R0805" value="1k" x="9.525" y="20.955" smashed="yes">
-<attribute name="NAME" x="11.43" y="21.971" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="11.303" y="20.447" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="8.89" y="18.415" size="1.27" layer="27"/>
 </element>
 <element name="R9" library="rcl" package="R0805" value="1k" x="9.525" y="23.495" smashed="yes">
-<attribute name="NAME" x="11.43" y="24.511" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="11.303" y="22.987" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="8.89" y="20.955" size="1.27" layer="27"/>
 </element>
 <element name="R10" library="rcl" package="R0805" value="10k" x="29.21" y="39.37" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.845" y="41.275" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="28.448" y="41.148" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="26.67" y="40.005" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C19" library="rcl" package="C0805" value="0.1u" x="26.67" y="39.37" smashed="yes" rot="R270">
-<attribute name="NAME" x="27.305" y="41.275" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="25.908" y="41.148" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="24.13" y="40.64" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U1" library="adilinden" package="SOT223" value="LD117AS50TR" x="23.495" y="13.97" smashed="yes" rot="R270">
-<attribute name="NAME" x="24.0665" y="13.1445" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="28.1305" y="17.7165" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="23.3045" y="15.0495" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="J2" library="SparkFun" package="POWER_JACK_PTH" value="POWER_JACKPTH" x="-3.175" y="7.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="1.905" y="11.43" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="0.762" y="7.239" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="0.635" y="11.43" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="F2" library="adilinden" package="R0805" value="800mA" x="15.24" y="8.255" smashed="yes">
-<attribute name="NAME" x="17.526" y="9.017" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="14.478" y="9.144" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="14.478" y="5.969" size="1.27" layer="27"/>
 </element>
 <element name="C3" library="rcl" package="C0805" value="0.1u" x="26.67" y="8.255" smashed="yes">
-<attribute name="NAME" x="24.511" y="7.366" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="26.035" y="9.144" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="25.4" y="5.715" size="1.27" layer="27"/>
 </element>
 <element name="C4" library="rcl" package="C0805" value="0.1u" x="26.035" y="22.225" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.924" y="20.32" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="26.543" y="20.32" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="28.575" y="20.955" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C5" library="rcl" package="CT3216" value="10u" x="22.86" y="22.225" smashed="yes" rot="R90">
-<attribute name="NAME" x="23.876" y="19.431" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="23.495" y="19.558" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="25.4" y="19.685" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R5" library="rcl" package="R0805" value="1k" x="9.525" y="17.145" smashed="yes">
-<attribute name="NAME" x="11.43" y="18.288" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="11.303" y="16.637" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="8.89" y="14.605" size="1.27" layer="27"/>
 </element>
-<element name="LED3" library="adafruit" package="CHIP-LED0805" value="PWR (Green)" x="5.08" y="17.145" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.429" y="17.78" size="1.016" layer="25" font="vector"/>
+<element name="E3" library="adafruit" package="CHIP-LED0805" value="PWR (Green)" x="5.08" y="17.145" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.858" y="16.764" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="6.35" y="19.685" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R7" library="rcl" package="R0805" value="10k" x="57.785" y="37.465" smashed="yes" rot="R270">
-<attribute name="NAME" x="56.515" y="36.83" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="58.42" y="35.56" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="55.245" y="38.1" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D2" library="diode" package="SOD123" value="500mA" x="60.325" y="37.465" smashed="yes" rot="R90">
-<attribute name="NAME" x="62.5" y="37" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="60.917" y="34.687" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="61.609" y="36.365" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="C18" library="rcl" package="C0805" value="0.1u" x="36.83" y="15.748" smashed="yes" rot="R270">
-<attribute name="NAME" x="35.56" y="14.478" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="37.719" y="13.843" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="34.29" y="17.018" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="S1" library="SparkFun" package="TACTILE_SWITCH_SMD" value="RESET" x="6.35" y="49.403" smashed="yes">
-<attribute name="NAME" x="9.906" y="50.419" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="9.906" y="49.276" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="5.461" y="47.371" size="0.4064" layer="27"/>
 </element>
 <element name="R11" library="rcl" package="R0805" value="1k" x="55.245" y="31.115" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.975" y="29.845" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="56.134" y="29.21" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="57.785" y="30.48" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R12" library="rcl" package="R0805" value="1k" x="57.785" y="31.115" smashed="yes" rot="R90">
-<attribute name="NAME" x="59.055" y="32.385" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="58.674" y="29.21" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="60.325" y="30.48" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R3" library="rcl" package="R0805" value="1k" x="9.525" y="29.845" smashed="yes">
-<attribute name="NAME" x="11.43" y="30.861" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="11.303" y="29.337" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="8.89" y="27.305" size="1.27" layer="27"/>
 </element>
-<element name="LED1" library="adafruit" package="CHIP-LED0805" value="L1 (Red)" x="5.08" y="29.845" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.429" y="30.48" size="1.016" layer="25" font="vector"/>
+<element name="E1" library="adafruit" package="CHIP-LED0805" value="L1 (Red)" x="5.08" y="29.845" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.858" y="29.464" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="6.35" y="32.385" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R4" library="rcl" package="R0805" value="1k" x="9.525" y="27.305" smashed="yes">
-<attribute name="NAME" x="11.43" y="28.321" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="11.303" y="26.797" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="8.89" y="24.765" size="1.27" layer="27"/>
 </element>
-<element name="LED2" library="adafruit" package="CHIP-LED0805" value="L2 (Red)" x="5.08" y="27.305" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.429" y="27.94" size="1.016" layer="25" font="vector"/>
+<element name="E2" library="adafruit" package="CHIP-LED0805" value="L2 (Red)" x="5.08" y="27.305" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.858" y="26.924" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="6.35" y="29.845" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C7" library="rcl" package="C0805" value="0.1u" x="29.21" y="22.225" smashed="yes" rot="R270">
-<attribute name="NAME" x="30.226" y="20.32" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="29.845" y="20.32" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="26.67" y="23.495" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C8" library="rcl" package="C0805" value="0.1u" x="47.625" y="10.16" smashed="yes">
-<attribute name="NAME" x="46.99" y="11.43" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="46.99" y="11.176" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="46.355" y="7.62" size="1.27" layer="27"/>
 </element>
 <element name="C9" library="rcl" package="C0805" value="0.1u" x="46.101" y="29.972" smashed="yes" rot="R180">
-<attribute name="NAME" x="47.371" y="28.702" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="45.593" y="30.988" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="47.371" y="32.512" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D1" library="diode" package="SOD123" value="1A" x="20.955" y="8.255" smashed="yes" rot="R180">
-<attribute name="NAME" x="23.987" y="9.228" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="20.109" y="9.255" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="22.055" y="9.539" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="PAD1" library="jumper" package="SJ" value="AUTO_RESET_EN" x="12.065" y="45.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="10.414" y="46.863" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="11.049" y="47.117" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="11.6649" y="45.72" size="0.02" layer="27" rot="R180"/>
 </element>
 <element name="C10" library="rcl" package="C0805" value="0.1u" x="55.88" y="16.891" smashed="yes" rot="R270">
-<attribute name="NAME" x="57.15" y="18.161" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="55.118" y="18.669" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="53.34" y="18.161" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="J6" library="adilinden" package="2X05" value="IO" x="22.86" y="3.81" smashed="yes">
-<attribute name="NAME" x="16.51" y="6.985" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="16.51" y="1.524" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="16.51" y="-0.635" size="1.27" layer="27"/>
 </element>
 <element name="C6" library="rcl" package="CT3216" value="10u" x="32.385" y="22.225" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.274" y="19.558" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="33.02" y="19.558" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="29.845" y="24.765" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="J4" library="SparkFun" package="1X03" value="POWER_SELECT" x="15.875" y="13.335" smashed="yes" rot="R90">
-<attribute name="NAME" x="-2.6162" y="17.8562" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="16.9418" y="11.6078" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="19.05" y="12.065" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C12" library="rcl" package="C0805" value="0.1u" x="36.83" y="20.574" smashed="yes" rot="R270">
-<attribute name="NAME" x="35.56" y="19.304" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="36.068" y="22.479" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="34.29" y="21.844" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C13" library="rcl" package="C0805" value="0.1u" x="32.639" y="34.544" smashed="yes">
-<attribute name="NAME" x="31.369" y="35.814" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="31.75" y="35.56" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="31.369" y="32.004" size="1.27" layer="27"/>
 </element>
 <element name="C11" library="rcl" package="C0805" value="0.1u" x="9.525" y="14.605" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.43" y="15.367" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="11.303" y="14.097" size="0.635" layer="25" font="vector"/>
 <attribute name="VALUE" x="10.795" y="17.145" size="1.27" layer="27" rot="R180"/>
 </element>
 </elements>
@@ -1634,11 +1634,11 @@ design rules under a new name.</description>
 <contactref element="U1" pad="1"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C5" pad="-"/>
-<contactref element="LED3" pad="C"/>
+<contactref element="E3" pad="C"/>
 <contactref element="C18" pad="2"/>
 <contactref element="J3" pad="6"/>
-<contactref element="LED1" pad="C"/>
-<contactref element="LED2" pad="C"/>
+<contactref element="E1" pad="C"/>
+<contactref element="E2" pad="C"/>
 <contactref element="C7" pad="2"/>
 <contactref element="C8" pad="2"/>
 <contactref element="C9" pad="2"/>
@@ -2192,16 +2192,16 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$26">
 <contactref element="R8" pad="1"/>
-<contactref element="LED4" pad="A"/>
+<contactref element="E4" pad="A"/>
 <wire x1="6.13" y1="20.955" x2="8.575" y2="20.955" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$27">
 <contactref element="R9" pad="1"/>
-<contactref element="LED5" pad="A"/>
+<contactref element="E5" pad="A"/>
 <wire x1="6.13" y1="23.495" x2="8.575" y2="23.495" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$29">
-<contactref element="LED4" pad="C"/>
+<contactref element="E4" pad="C"/>
 <contactref element="U3" pad="10"/>
 <wire x1="4.03" y1="20.955" x2="4.03" y2="21.175" width="0.3048" layer="1"/>
 <wire x1="4.03" y1="21.175" x2="5.08" y2="22.225" width="0.3048" layer="1"/>
@@ -2218,7 +2218,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$30">
 <contactref element="U3" pad="11"/>
-<contactref element="LED5" pad="C"/>
+<contactref element="E5" pad="C"/>
 <wire x1="4.03" y1="23.495" x2="4.03" y2="24.35" width="0.3048" layer="1"/>
 <wire x1="4.03" y1="24.35" x2="5.08" y2="25.4" width="0.3048" layer="1"/>
 <wire x1="5.08" y1="25.4" x2="5.715" y2="26.035" width="0.3048" layer="16"/>
@@ -2250,7 +2250,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$34">
 <contactref element="R5" pad="1"/>
-<contactref element="LED3" pad="A"/>
+<contactref element="E3" pad="A"/>
 <wire x1="6.13" y1="17.145" x2="8.575" y2="17.145" width="0.3048" layer="1"/>
 </signal>
 <signal name="A6">
@@ -2432,12 +2432,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$11">
 <contactref element="R3" pad="1"/>
-<contactref element="LED1" pad="A"/>
+<contactref element="E1" pad="A"/>
 <wire x1="6.13" y1="29.845" x2="8.575" y2="29.845" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$12">
 <contactref element="R4" pad="1"/>
-<contactref element="LED2" pad="A"/>
+<contactref element="E2" pad="A"/>
 <wire x1="6.13" y1="27.305" x2="8.575" y2="27.305" width="0.3048" layer="1"/>
 </signal>
 <signal name="L1">
