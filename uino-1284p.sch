@@ -3974,108 +3974,6 @@ chip</description>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 </package>
-<package name="TQFP44">
-<description>&lt;b&gt;44-lead Thin Quad Flat Package&lt;/b&gt;</description>
-<wire x1="-4.8" y1="4.4" x2="-4.4" y2="4.8" width="0.2032" layer="21"/>
-<wire x1="-4.4" y1="4.8" x2="4.4" y2="4.8" width="0.2032" layer="21"/>
-<wire x1="4.4" y1="4.8" x2="4.8" y2="4.4" width="0.2032" layer="21"/>
-<wire x1="4.8" y1="4.4" x2="4.8" y2="-4.4" width="0.2032" layer="21"/>
-<wire x1="4.8" y1="-4.4" x2="4.4" y2="-4.8" width="0.2032" layer="21"/>
-<wire x1="4.4" y1="-4.8" x2="-4.4" y2="-4.8" width="0.2032" layer="21"/>
-<wire x1="-4.4" y1="-4.8" x2="-4.8" y2="-4.4" width="0.2032" layer="21"/>
-<wire x1="-4.8" y1="-4.4" x2="-4.8" y2="4.4" width="0.2032" layer="21"/>
-<circle x="-4" y="4" radius="0.2827" width="0.254" layer="21"/>
-<smd name="1" x="-5.8" y="4" dx="1.5" dy="0.5" layer="1"/>
-<smd name="2" x="-5.8" y="3.2" dx="1.5" dy="0.5" layer="1"/>
-<smd name="3" x="-5.8" y="2.4" dx="1.5" dy="0.5" layer="1"/>
-<smd name="4" x="-5.8" y="1.6" dx="1.5" dy="0.5" layer="1"/>
-<smd name="5" x="-5.8" y="0.8" dx="1.5" dy="0.5" layer="1"/>
-<smd name="6" x="-5.8" y="0" dx="1.5" dy="0.5" layer="1"/>
-<smd name="7" x="-5.8" y="-0.8" dx="1.5" dy="0.5" layer="1"/>
-<smd name="8" x="-5.8" y="-1.6" dx="1.5" dy="0.5" layer="1"/>
-<smd name="9" x="-5.8" y="-2.4" dx="1.5" dy="0.5" layer="1"/>
-<smd name="10" x="-5.8" y="-3.2" dx="1.5" dy="0.5" layer="1"/>
-<smd name="11" x="-5.8" y="-4" dx="1.5" dy="0.5" layer="1"/>
-<smd name="12" x="-4" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="13" x="-3.2" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="14" x="-2.4" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="15" x="-1.6" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="16" x="-0.8" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="17" x="0" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="18" x="0.8" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="19" x="1.6" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="20" x="2.4" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="21" x="3.2" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="22" x="4" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="23" x="5.8" y="-4" dx="1.5" dy="0.5" layer="1"/>
-<smd name="24" x="5.8" y="-3.2" dx="1.5" dy="0.5" layer="1"/>
-<smd name="25" x="5.8" y="-2.4" dx="1.5" dy="0.5" layer="1"/>
-<smd name="26" x="5.8" y="-1.6" dx="1.5" dy="0.5" layer="1"/>
-<smd name="27" x="5.8" y="-0.8" dx="1.5" dy="0.5" layer="1"/>
-<smd name="28" x="5.8" y="0" dx="1.5" dy="0.5" layer="1"/>
-<smd name="29" x="5.8" y="0.8" dx="1.5" dy="0.5" layer="1"/>
-<smd name="30" x="5.8" y="1.6" dx="1.5" dy="0.5" layer="1"/>
-<smd name="31" x="5.8" y="2.4" dx="1.5" dy="0.5" layer="1"/>
-<smd name="32" x="5.8" y="3.2" dx="1.5" dy="0.5" layer="1"/>
-<smd name="33" x="5.8" y="4" dx="1.5" dy="0.5" layer="1"/>
-<smd name="34" x="4" y="5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="35" x="3.2" y="5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="36" x="2.4" y="5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="37" x="1.6" y="5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="38" x="0.8" y="5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="39" x="0" y="5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="40" x="-0.8" y="5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="41" x="-1.6" y="5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="42" x="-2.4" y="5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="43" x="-3.2" y="5.8" dx="0.5" dy="1.5" layer="1"/>
-<smd name="44" x="-4" y="5.8" dx="0.5" dy="1.5" layer="1"/>
-<text x="-3.81" y="6.985" size="1.778" layer="25">&gt;NAME</text>
-<text x="-4.445" y="-8.7551" size="1.778" layer="27">&gt;VALUE</text>
-<rectangle x1="-6.1001" y1="3.8001" x2="-4.95" y2="4.1999" layer="51"/>
-<rectangle x1="-6.1001" y1="3" x2="-4.95" y2="3.4" layer="51"/>
-<rectangle x1="-6.1001" y1="2.1999" x2="-4.95" y2="2.5999" layer="51"/>
-<rectangle x1="-6.1001" y1="1.4" x2="-4.95" y2="1.8001" layer="51"/>
-<rectangle x1="-6.1001" y1="0.5999" x2="-4.95" y2="1" layer="51"/>
-<rectangle x1="-6.1001" y1="-0.1999" x2="-4.95" y2="0.1999" layer="51"/>
-<rectangle x1="-6.1001" y1="-1" x2="-4.95" y2="-0.5999" layer="51"/>
-<rectangle x1="-6.1001" y1="-1.8001" x2="-4.95" y2="-1.4" layer="51"/>
-<rectangle x1="-6.1001" y1="-2.5999" x2="-4.95" y2="-2.1999" layer="51"/>
-<rectangle x1="-6.1001" y1="-3.4" x2="-4.95" y2="-3" layer="51"/>
-<rectangle x1="-6.1001" y1="-4.1999" x2="-4.95" y2="-3.8001" layer="51"/>
-<rectangle x1="-4.1999" y1="-6.1001" x2="-3.8001" y2="-4.95" layer="51"/>
-<rectangle x1="-3.4" y1="-6.1001" x2="-3" y2="-4.95" layer="51"/>
-<rectangle x1="-2.5999" y1="-6.1001" x2="-2.1999" y2="-4.95" layer="51"/>
-<rectangle x1="-1.8001" y1="-6.1001" x2="-1.4" y2="-4.95" layer="51"/>
-<rectangle x1="-1" y1="-6.1001" x2="-0.5999" y2="-4.95" layer="51"/>
-<rectangle x1="-0.1999" y1="-6.1001" x2="0.1999" y2="-4.95" layer="51"/>
-<rectangle x1="0.5999" y1="-6.1001" x2="1" y2="-4.95" layer="51"/>
-<rectangle x1="1.4" y1="-6.1001" x2="1.8001" y2="-4.95" layer="51"/>
-<rectangle x1="2.1999" y1="-6.1001" x2="2.5999" y2="-4.95" layer="51"/>
-<rectangle x1="3" y1="-6.1001" x2="3.4" y2="-4.95" layer="51"/>
-<rectangle x1="3.8001" y1="-6.1001" x2="4.1999" y2="-4.95" layer="51"/>
-<rectangle x1="4.95" y1="-4.1999" x2="6.1001" y2="-3.8001" layer="51"/>
-<rectangle x1="4.95" y1="-3.4" x2="6.1001" y2="-3" layer="51"/>
-<rectangle x1="4.95" y1="-2.5999" x2="6.1001" y2="-2.1999" layer="51"/>
-<rectangle x1="4.95" y1="-1.8001" x2="6.1001" y2="-1.4" layer="51"/>
-<rectangle x1="4.95" y1="-1" x2="6.1001" y2="-0.5999" layer="51"/>
-<rectangle x1="4.95" y1="-0.1999" x2="6.1001" y2="0.1999" layer="51"/>
-<rectangle x1="4.95" y1="0.5999" x2="6.1001" y2="1" layer="51"/>
-<rectangle x1="4.95" y1="1.4" x2="6.1001" y2="1.8001" layer="51"/>
-<rectangle x1="4.95" y1="2.1999" x2="6.1001" y2="2.5999" layer="51"/>
-<rectangle x1="4.95" y1="3" x2="6.1001" y2="3.4" layer="51"/>
-<rectangle x1="4.95" y1="3.8001" x2="6.1001" y2="4.1999" layer="51"/>
-<rectangle x1="3.8001" y1="4.95" x2="4.1999" y2="6.1001" layer="51"/>
-<rectangle x1="3" y1="4.95" x2="3.4" y2="6.1001" layer="51"/>
-<rectangle x1="2.1999" y1="4.95" x2="2.5999" y2="6.1001" layer="51"/>
-<rectangle x1="1.4" y1="4.95" x2="1.8001" y2="6.1001" layer="51"/>
-<rectangle x1="0.5999" y1="4.95" x2="1" y2="6.1001" layer="51"/>
-<rectangle x1="-0.1999" y1="4.95" x2="0.1999" y2="6.1001" layer="51"/>
-<rectangle x1="-1" y1="4.95" x2="-0.5999" y2="6.1001" layer="51"/>
-<rectangle x1="-1.8001" y1="4.95" x2="-1.4" y2="6.1001" layer="51"/>
-<rectangle x1="-2.5999" y1="4.95" x2="-2.1999" y2="6.1001" layer="51"/>
-<rectangle x1="-3.4" y1="4.95" x2="-3" y2="6.1001" layer="51"/>
-<rectangle x1="-4.1999" y1="4.95" x2="-3.8001" y2="6.1001" layer="51"/>
-</package>
 <package name="1X10">
 <wire x1="14.605" y1="1.27" x2="15.875" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="15.875" y1="1.27" x2="16.51" y2="0.635" width="0.2032" layer="21"/>
@@ -4277,58 +4175,6 @@ chip</description>
 <pin name="2" x="5.08" y="-7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="5.08" y="-10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="ATMEGA1284P">
-<wire x1="-22.86" y1="45.72" x2="20.32" y2="45.72" width="0.254" layer="94"/>
-<wire x1="20.32" y1="45.72" x2="20.32" y2="-45.72" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-45.72" x2="-22.86" y2="-45.72" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="-45.72" x2="-22.86" y2="45.72" width="0.254" layer="94"/>
-<text x="-22.86" y="-48.26" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-22.86" y="46.99" size="1.778" layer="95">&gt;NAME</text>
-<pin name="(PCINT31/OC2A)PD7" x="25.4" y="-25.4" length="middle" rot="R180"/>
-<pin name="(PCINT30/OC2B/ICP)PD6" x="25.4" y="-27.94" length="middle" rot="R180"/>
-<pin name="(PCINT29/OC1A)PD5" x="25.4" y="-30.48" length="middle" rot="R180"/>
-<pin name="(PCINT28/OC1B)PD4" x="25.4" y="-33.02" length="middle" rot="R180"/>
-<pin name="(PCINT27/TXD1/INT1)PD3" x="25.4" y="-35.56" length="middle" rot="R180"/>
-<pin name="(PCINT26/RXD1/INT0)PD2" x="25.4" y="-38.1" length="middle" rot="R180"/>
-<pin name="(PCINT25/TXD0)PD1" x="25.4" y="-40.64" length="middle" rot="R180"/>
-<pin name="(PCINT24/RXD0)PD0" x="25.4" y="-43.18" length="middle" rot="R180"/>
-<pin name="(PCINT23/TOSC2)PC7" x="25.4" y="-2.54" length="middle" direction="out" rot="R180"/>
-<pin name="(PCINT22/TOSC1)PC6" x="25.4" y="-5.08" length="middle" direction="out" rot="R180"/>
-<pin name="(PCINT21/TDI)PC5" x="25.4" y="-7.62" length="middle" direction="out" rot="R180"/>
-<pin name="(PCINT20/TDO)PC4" x="25.4" y="-10.16" length="middle" direction="out" rot="R180"/>
-<pin name="(PCINT19/TMS)PC3" x="25.4" y="-12.7" length="middle" direction="out" rot="R180"/>
-<pin name="(PCINT18/TCK)PC2" x="25.4" y="-15.24" length="middle" direction="out" rot="R180"/>
-<pin name="(PCINT17/SDA)PC1" x="25.4" y="-17.78" length="middle" direction="out" rot="R180"/>
-<pin name="(PCINT16/SCL)PC0" x="25.4" y="-20.32" length="middle" direction="out" rot="R180"/>
-<pin name="(PCINT15/OC3B/SCK)PB7" x="25.4" y="20.32" length="middle" rot="R180"/>
-<pin name="(PCINT14/OC3A/MISO)PB6" x="25.4" y="17.78" length="middle" rot="R180"/>
-<pin name="(PCINT13/MOSI)PB5" x="25.4" y="15.24" length="middle" rot="R180"/>
-<pin name="(PCINT12/OC0B/!SS!)PB4" x="25.4" y="12.7" length="middle" rot="R180"/>
-<pin name="(PCINT11/OC0A/AIN1)PB3" x="25.4" y="10.16" length="middle" rot="R180"/>
-<pin name="(PCINT10/INT2/AIN0)PB2" x="25.4" y="7.62" length="middle" rot="R180"/>
-<pin name="(PCINT9/CLKO/T1)PB1" x="25.4" y="5.08" length="middle" rot="R180"/>
-<pin name="(PCINT8/XCK0/T0)PB0" x="25.4" y="2.54" length="middle" rot="R180"/>
-<pin name="(PCINT6/ADC6)PA6" x="25.4" y="40.64" length="middle" rot="R180"/>
-<pin name="(PCINT7/ADC7)PA7" x="25.4" y="43.18" length="middle" rot="R180"/>
-<pin name="(PCINT5/ADC5)PA5" x="25.4" y="38.1" length="middle" rot="R180"/>
-<pin name="(PCINT4/ADC4)PA4" x="25.4" y="35.56" length="middle" rot="R180"/>
-<pin name="(PCINT3/ADC3)PA3" x="25.4" y="33.02" length="middle" rot="R180"/>
-<pin name="(PCINT2/ADC2)PA2" x="25.4" y="30.48" length="middle" rot="R180"/>
-<pin name="(PCINT1/ADC1)PA1" x="25.4" y="27.94" length="middle" rot="R180"/>
-<pin name="(PCINT0/ADC0)PA0" x="25.4" y="25.4" length="middle" rot="R180"/>
-<pin name="AVCC" x="-27.94" y="35.56" length="middle" direction="pwr"/>
-<pin name="AREF" x="-27.94" y="-12.7" length="middle" direction="pas"/>
-<pin name="XTAL1" x="-27.94" y="10.16" length="middle"/>
-<pin name="XTAL2" x="-27.94" y="0" length="middle"/>
-<pin name="VCC@1" x="-27.94" y="40.64" length="middle" direction="pwr"/>
-<pin name="VCC" x="-27.94" y="43.18" length="middle" direction="pwr"/>
-<pin name="GND@1" x="-27.94" y="-40.64" length="middle" direction="pwr"/>
-<pin name="GND" x="-27.94" y="-43.18" length="middle" direction="pwr"/>
-<pin name="RESET" x="-27.94" y="22.86" length="middle" direction="in" function="dot"/>
-<pin name="GND@2" x="-27.94" y="-38.1" length="middle" direction="pwr"/>
-<pin name="GND@3" x="-27.94" y="-35.56" length="middle" direction="pwr"/>
-<pin name="VCC@2" x="-27.94" y="38.1" length="middle" direction="pwr"/>
-</symbol>
 <symbol name="V_REG_LM1117">
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
@@ -4415,71 +4261,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ATMEGA1284P" prefix="IC">
-<description>&lt;b&gt;8-bit Microcontroller&lt;/b&gt; with 64K Bytes In-System Programmable Flash&lt;p&gt;
-Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</description>
-<gates>
-<gate name="G$1" symbol="ATMEGA1284P" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-AU" package="TQFP44">
-<connects>
-<connect gate="G$1" pin="(PCINT0/ADC0)PA0" pad="37"/>
-<connect gate="G$1" pin="(PCINT1/ADC1)PA1" pad="36"/>
-<connect gate="G$1" pin="(PCINT10/INT2/AIN0)PB2" pad="42"/>
-<connect gate="G$1" pin="(PCINT11/OC0A/AIN1)PB3" pad="43"/>
-<connect gate="G$1" pin="(PCINT12/OC0B/!SS!)PB4" pad="44"/>
-<connect gate="G$1" pin="(PCINT13/MOSI)PB5" pad="1"/>
-<connect gate="G$1" pin="(PCINT14/OC3A/MISO)PB6" pad="2"/>
-<connect gate="G$1" pin="(PCINT15/OC3B/SCK)PB7" pad="3"/>
-<connect gate="G$1" pin="(PCINT16/SCL)PC0" pad="19"/>
-<connect gate="G$1" pin="(PCINT17/SDA)PC1" pad="20"/>
-<connect gate="G$1" pin="(PCINT18/TCK)PC2" pad="21"/>
-<connect gate="G$1" pin="(PCINT19/TMS)PC3" pad="22"/>
-<connect gate="G$1" pin="(PCINT2/ADC2)PA2" pad="35"/>
-<connect gate="G$1" pin="(PCINT20/TDO)PC4" pad="23"/>
-<connect gate="G$1" pin="(PCINT21/TDI)PC5" pad="24"/>
-<connect gate="G$1" pin="(PCINT22/TOSC1)PC6" pad="25"/>
-<connect gate="G$1" pin="(PCINT23/TOSC2)PC7" pad="26"/>
-<connect gate="G$1" pin="(PCINT24/RXD0)PD0" pad="9"/>
-<connect gate="G$1" pin="(PCINT25/TXD0)PD1" pad="10"/>
-<connect gate="G$1" pin="(PCINT26/RXD1/INT0)PD2" pad="11"/>
-<connect gate="G$1" pin="(PCINT27/TXD1/INT1)PD3" pad="12"/>
-<connect gate="G$1" pin="(PCINT28/OC1B)PD4" pad="13"/>
-<connect gate="G$1" pin="(PCINT29/OC1A)PD5" pad="14"/>
-<connect gate="G$1" pin="(PCINT3/ADC3)PA3" pad="34"/>
-<connect gate="G$1" pin="(PCINT30/OC2B/ICP)PD6" pad="15"/>
-<connect gate="G$1" pin="(PCINT31/OC2A)PD7" pad="16"/>
-<connect gate="G$1" pin="(PCINT4/ADC4)PA4" pad="33"/>
-<connect gate="G$1" pin="(PCINT5/ADC5)PA5" pad="32"/>
-<connect gate="G$1" pin="(PCINT6/ADC6)PA6" pad="31"/>
-<connect gate="G$1" pin="(PCINT7/ADC7)PA7" pad="30"/>
-<connect gate="G$1" pin="(PCINT8/XCK0/T0)PB0" pad="40"/>
-<connect gate="G$1" pin="(PCINT9/CLKO/T1)PB1" pad="41"/>
-<connect gate="G$1" pin="AREF" pad="29"/>
-<connect gate="G$1" pin="AVCC" pad="27"/>
-<connect gate="G$1" pin="GND" pad="6"/>
-<connect gate="G$1" pin="GND@1" pad="18"/>
-<connect gate="G$1" pin="GND@2" pad="28"/>
-<connect gate="G$1" pin="GND@3" pad="39"/>
-<connect gate="G$1" pin="RESET" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="5"/>
-<connect gate="G$1" pin="VCC@1" pad="17"/>
-<connect gate="G$1" pin="VCC@2" pad="38"/>
-<connect gate="G$1" pin="XTAL1" pad="8"/>
-<connect gate="G$1" pin="XTAL2" pad="7"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="ATMEGA644PV-10AU" constant="no"/>
-<attribute name="OC_FARNELL" value="1455123" constant="no"/>
-<attribute name="OC_NEWARK" value="58M3748" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -16108,6 +15889,233 @@ Amphenol FCI 10118194-0001LF</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="adi-atmega">
+<packages>
+<package name="TQFP44">
+<description>&lt;b&gt;44-lead Thin Quad Flat Package&lt;/b&gt;</description>
+<wire x1="-4.8" y1="4.4" x2="-4.4" y2="4.8" width="0.2032" layer="21"/>
+<wire x1="-4.4" y1="4.8" x2="4.4" y2="4.8" width="0.2032" layer="21"/>
+<wire x1="4.4" y1="4.8" x2="4.8" y2="4.4" width="0.2032" layer="21"/>
+<wire x1="4.8" y1="4.4" x2="4.8" y2="-4.4" width="0.2032" layer="21"/>
+<wire x1="4.8" y1="-4.4" x2="4.4" y2="-4.8" width="0.2032" layer="21"/>
+<wire x1="4.4" y1="-4.8" x2="-4.4" y2="-4.8" width="0.2032" layer="21"/>
+<wire x1="-4.4" y1="-4.8" x2="-4.8" y2="-4.4" width="0.2032" layer="21"/>
+<wire x1="-4.8" y1="-4.4" x2="-4.8" y2="4.4" width="0.2032" layer="21"/>
+<circle x="-4" y="4" radius="0.2827" width="0.254" layer="21"/>
+<smd name="1" x="-5.8" y="4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="2" x="-5.8" y="3.2" dx="1.5" dy="0.5" layer="1"/>
+<smd name="3" x="-5.8" y="2.4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="4" x="-5.8" y="1.6" dx="1.5" dy="0.5" layer="1"/>
+<smd name="5" x="-5.8" y="0.8" dx="1.5" dy="0.5" layer="1"/>
+<smd name="6" x="-5.8" y="0" dx="1.5" dy="0.5" layer="1"/>
+<smd name="7" x="-5.8" y="-0.8" dx="1.5" dy="0.5" layer="1"/>
+<smd name="8" x="-5.8" y="-1.6" dx="1.5" dy="0.5" layer="1"/>
+<smd name="9" x="-5.8" y="-2.4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="10" x="-5.8" y="-3.2" dx="1.5" dy="0.5" layer="1"/>
+<smd name="11" x="-5.8" y="-4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="12" x="-4" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="13" x="-3.2" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="14" x="-2.4" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="15" x="-1.6" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="16" x="-0.8" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="17" x="0" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="18" x="0.8" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="19" x="1.6" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="20" x="2.4" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="21" x="3.2" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="22" x="4" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="23" x="5.8" y="-4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="24" x="5.8" y="-3.2" dx="1.5" dy="0.5" layer="1"/>
+<smd name="25" x="5.8" y="-2.4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="26" x="5.8" y="-1.6" dx="1.5" dy="0.5" layer="1"/>
+<smd name="27" x="5.8" y="-0.8" dx="1.5" dy="0.5" layer="1"/>
+<smd name="28" x="5.8" y="0" dx="1.5" dy="0.5" layer="1"/>
+<smd name="29" x="5.8" y="0.8" dx="1.5" dy="0.5" layer="1"/>
+<smd name="30" x="5.8" y="1.6" dx="1.5" dy="0.5" layer="1"/>
+<smd name="31" x="5.8" y="2.4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="32" x="5.8" y="3.2" dx="1.5" dy="0.5" layer="1"/>
+<smd name="33" x="5.8" y="4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="34" x="4" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="35" x="3.2" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="36" x="2.4" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="37" x="1.6" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="38" x="0.8" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="39" x="0" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="40" x="-0.8" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="41" x="-1.6" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="42" x="-2.4" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="43" x="-3.2" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="44" x="-4" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<text x="-3.81" y="6.985" size="1.778" layer="25">&gt;NAME</text>
+<text x="-4.445" y="-8.7551" size="1.778" layer="27">&gt;VALUE</text>
+<rectangle x1="-6.1001" y1="3.8001" x2="-4.95" y2="4.1999" layer="51"/>
+<rectangle x1="-6.1001" y1="3" x2="-4.95" y2="3.4" layer="51"/>
+<rectangle x1="-6.1001" y1="2.1999" x2="-4.95" y2="2.5999" layer="51"/>
+<rectangle x1="-6.1001" y1="1.4" x2="-4.95" y2="1.8001" layer="51"/>
+<rectangle x1="-6.1001" y1="0.5999" x2="-4.95" y2="1" layer="51"/>
+<rectangle x1="-6.1001" y1="-0.1999" x2="-4.95" y2="0.1999" layer="51"/>
+<rectangle x1="-6.1001" y1="-1" x2="-4.95" y2="-0.5999" layer="51"/>
+<rectangle x1="-6.1001" y1="-1.8001" x2="-4.95" y2="-1.4" layer="51"/>
+<rectangle x1="-6.1001" y1="-2.5999" x2="-4.95" y2="-2.1999" layer="51"/>
+<rectangle x1="-6.1001" y1="-3.4" x2="-4.95" y2="-3" layer="51"/>
+<rectangle x1="-6.1001" y1="-4.1999" x2="-4.95" y2="-3.8001" layer="51"/>
+<rectangle x1="-4.1999" y1="-6.1001" x2="-3.8001" y2="-4.95" layer="51"/>
+<rectangle x1="-3.4" y1="-6.1001" x2="-3" y2="-4.95" layer="51"/>
+<rectangle x1="-2.5999" y1="-6.1001" x2="-2.1999" y2="-4.95" layer="51"/>
+<rectangle x1="-1.8001" y1="-6.1001" x2="-1.4" y2="-4.95" layer="51"/>
+<rectangle x1="-1" y1="-6.1001" x2="-0.5999" y2="-4.95" layer="51"/>
+<rectangle x1="-0.1999" y1="-6.1001" x2="0.1999" y2="-4.95" layer="51"/>
+<rectangle x1="0.5999" y1="-6.1001" x2="1" y2="-4.95" layer="51"/>
+<rectangle x1="1.4" y1="-6.1001" x2="1.8001" y2="-4.95" layer="51"/>
+<rectangle x1="2.1999" y1="-6.1001" x2="2.5999" y2="-4.95" layer="51"/>
+<rectangle x1="3" y1="-6.1001" x2="3.4" y2="-4.95" layer="51"/>
+<rectangle x1="3.8001" y1="-6.1001" x2="4.1999" y2="-4.95" layer="51"/>
+<rectangle x1="4.95" y1="-4.1999" x2="6.1001" y2="-3.8001" layer="51"/>
+<rectangle x1="4.95" y1="-3.4" x2="6.1001" y2="-3" layer="51"/>
+<rectangle x1="4.95" y1="-2.5999" x2="6.1001" y2="-2.1999" layer="51"/>
+<rectangle x1="4.95" y1="-1.8001" x2="6.1001" y2="-1.4" layer="51"/>
+<rectangle x1="4.95" y1="-1" x2="6.1001" y2="-0.5999" layer="51"/>
+<rectangle x1="4.95" y1="-0.1999" x2="6.1001" y2="0.1999" layer="51"/>
+<rectangle x1="4.95" y1="0.5999" x2="6.1001" y2="1" layer="51"/>
+<rectangle x1="4.95" y1="1.4" x2="6.1001" y2="1.8001" layer="51"/>
+<rectangle x1="4.95" y1="2.1999" x2="6.1001" y2="2.5999" layer="51"/>
+<rectangle x1="4.95" y1="3" x2="6.1001" y2="3.4" layer="51"/>
+<rectangle x1="4.95" y1="3.8001" x2="6.1001" y2="4.1999" layer="51"/>
+<rectangle x1="3.8001" y1="4.95" x2="4.1999" y2="6.1001" layer="51"/>
+<rectangle x1="3" y1="4.95" x2="3.4" y2="6.1001" layer="51"/>
+<rectangle x1="2.1999" y1="4.95" x2="2.5999" y2="6.1001" layer="51"/>
+<rectangle x1="1.4" y1="4.95" x2="1.8001" y2="6.1001" layer="51"/>
+<rectangle x1="0.5999" y1="4.95" x2="1" y2="6.1001" layer="51"/>
+<rectangle x1="-0.1999" y1="4.95" x2="0.1999" y2="6.1001" layer="51"/>
+<rectangle x1="-1" y1="4.95" x2="-0.5999" y2="6.1001" layer="51"/>
+<rectangle x1="-1.8001" y1="4.95" x2="-1.4" y2="6.1001" layer="51"/>
+<rectangle x1="-2.5999" y1="4.95" x2="-2.1999" y2="6.1001" layer="51"/>
+<rectangle x1="-3.4" y1="4.95" x2="-3" y2="6.1001" layer="51"/>
+<rectangle x1="-4.1999" y1="4.95" x2="-3.8001" y2="6.1001" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ATMEGA1284P">
+<wire x1="-22.86" y1="45.72" x2="20.32" y2="45.72" width="0.254" layer="94"/>
+<wire x1="20.32" y1="45.72" x2="20.32" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-45.72" x2="-22.86" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-45.72" x2="-22.86" y2="45.72" width="0.254" layer="94"/>
+<text x="-22.86" y="-48.26" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-22.86" y="46.99" size="1.778" layer="95">&gt;NAME</text>
+<pin name="(PCINT31/OC2A)PD7" x="25.4" y="-25.4" length="middle" rot="R180"/>
+<pin name="(PCINT30/OC2B/ICP)PD6" x="25.4" y="-27.94" length="middle" rot="R180"/>
+<pin name="(PCINT29/OC1A)PD5" x="25.4" y="-30.48" length="middle" rot="R180"/>
+<pin name="(PCINT28/OC1B)PD4" x="25.4" y="-33.02" length="middle" rot="R180"/>
+<pin name="(PCINT27/TXD1/INT1)PD3" x="25.4" y="-35.56" length="middle" rot="R180"/>
+<pin name="(PCINT26/RXD1/INT0)PD2" x="25.4" y="-38.1" length="middle" rot="R180"/>
+<pin name="(PCINT25/TXD0)PD1" x="25.4" y="-40.64" length="middle" rot="R180"/>
+<pin name="(PCINT24/RXD0)PD0" x="25.4" y="-43.18" length="middle" rot="R180"/>
+<pin name="(PCINT23/TOSC2)PC7" x="25.4" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="(PCINT22/TOSC1)PC6" x="25.4" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="(PCINT21/TDI)PC5" x="25.4" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="(PCINT20/TDO)PC4" x="25.4" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="(PCINT19/TMS)PC3" x="25.4" y="-12.7" length="middle" direction="out" rot="R180"/>
+<pin name="(PCINT18/TCK)PC2" x="25.4" y="-15.24" length="middle" direction="out" rot="R180"/>
+<pin name="(PCINT17/SDA)PC1" x="25.4" y="-17.78" length="middle" direction="out" rot="R180"/>
+<pin name="(PCINT16/SCL)PC0" x="25.4" y="-20.32" length="middle" direction="out" rot="R180"/>
+<pin name="(PCINT15/OC3B/SCK)PB7" x="25.4" y="20.32" length="middle" rot="R180"/>
+<pin name="(PCINT14/OC3A/MISO)PB6" x="25.4" y="17.78" length="middle" rot="R180"/>
+<pin name="(PCINT13/MOSI)PB5" x="25.4" y="15.24" length="middle" rot="R180"/>
+<pin name="(PCINT12/OC0B/!SS!)PB4" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="(PCINT11/OC0A/AIN1)PB3" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="(PCINT10/INT2/AIN0)PB2" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="(PCINT9/CLKO/T1)PB1" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="(PCINT8/XCK0/T0)PB0" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="(PCINT6/ADC6)PA6" x="25.4" y="40.64" length="middle" rot="R180"/>
+<pin name="(PCINT7/ADC7)PA7" x="25.4" y="43.18" length="middle" rot="R180"/>
+<pin name="(PCINT5/ADC5)PA5" x="25.4" y="38.1" length="middle" rot="R180"/>
+<pin name="(PCINT4/ADC4)PA4" x="25.4" y="35.56" length="middle" rot="R180"/>
+<pin name="(PCINT3/ADC3)PA3" x="25.4" y="33.02" length="middle" rot="R180"/>
+<pin name="(PCINT2/ADC2)PA2" x="25.4" y="30.48" length="middle" rot="R180"/>
+<pin name="(PCINT1/ADC1)PA1" x="25.4" y="27.94" length="middle" rot="R180"/>
+<pin name="(PCINT0/ADC0)PA0" x="25.4" y="25.4" length="middle" rot="R180"/>
+<pin name="AVCC" x="-27.94" y="35.56" length="middle" direction="pwr"/>
+<pin name="AREF" x="-27.94" y="-12.7" length="middle" direction="pas"/>
+<pin name="XTAL1" x="-27.94" y="10.16" length="middle"/>
+<pin name="XTAL2" x="-27.94" y="0" length="middle"/>
+<pin name="VCC@1" x="-27.94" y="40.64" length="middle" direction="pwr"/>
+<pin name="VCC" x="-27.94" y="43.18" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-27.94" y="-40.64" length="middle" direction="pwr"/>
+<pin name="GND" x="-27.94" y="-43.18" length="middle" direction="pwr"/>
+<pin name="RESET" x="-27.94" y="22.86" length="middle" direction="in" function="dot"/>
+<pin name="GND@2" x="-27.94" y="-38.1" length="middle" direction="pwr"/>
+<pin name="GND@3" x="-27.94" y="-35.56" length="middle" direction="pwr"/>
+<pin name="VCC@2" x="-27.94" y="38.1" length="middle" direction="pwr"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ATMEGA1284P" prefix="U">
+<description>&lt;b&gt;8-bit Microcontroller&lt;/b&gt; with 64K Bytes In-System Programmable Flash&lt;p&gt;
+Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</description>
+<gates>
+<gate name="G$1" symbol="ATMEGA1284P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-AU" package="TQFP44">
+<connects>
+<connect gate="G$1" pin="(PCINT0/ADC0)PA0" pad="37"/>
+<connect gate="G$1" pin="(PCINT1/ADC1)PA1" pad="36"/>
+<connect gate="G$1" pin="(PCINT10/INT2/AIN0)PB2" pad="42"/>
+<connect gate="G$1" pin="(PCINT11/OC0A/AIN1)PB3" pad="43"/>
+<connect gate="G$1" pin="(PCINT12/OC0B/!SS!)PB4" pad="44"/>
+<connect gate="G$1" pin="(PCINT13/MOSI)PB5" pad="1"/>
+<connect gate="G$1" pin="(PCINT14/OC3A/MISO)PB6" pad="2"/>
+<connect gate="G$1" pin="(PCINT15/OC3B/SCK)PB7" pad="3"/>
+<connect gate="G$1" pin="(PCINT16/SCL)PC0" pad="19"/>
+<connect gate="G$1" pin="(PCINT17/SDA)PC1" pad="20"/>
+<connect gate="G$1" pin="(PCINT18/TCK)PC2" pad="21"/>
+<connect gate="G$1" pin="(PCINT19/TMS)PC3" pad="22"/>
+<connect gate="G$1" pin="(PCINT2/ADC2)PA2" pad="35"/>
+<connect gate="G$1" pin="(PCINT20/TDO)PC4" pad="23"/>
+<connect gate="G$1" pin="(PCINT21/TDI)PC5" pad="24"/>
+<connect gate="G$1" pin="(PCINT22/TOSC1)PC6" pad="25"/>
+<connect gate="G$1" pin="(PCINT23/TOSC2)PC7" pad="26"/>
+<connect gate="G$1" pin="(PCINT24/RXD0)PD0" pad="9"/>
+<connect gate="G$1" pin="(PCINT25/TXD0)PD1" pad="10"/>
+<connect gate="G$1" pin="(PCINT26/RXD1/INT0)PD2" pad="11"/>
+<connect gate="G$1" pin="(PCINT27/TXD1/INT1)PD3" pad="12"/>
+<connect gate="G$1" pin="(PCINT28/OC1B)PD4" pad="13"/>
+<connect gate="G$1" pin="(PCINT29/OC1A)PD5" pad="14"/>
+<connect gate="G$1" pin="(PCINT3/ADC3)PA3" pad="34"/>
+<connect gate="G$1" pin="(PCINT30/OC2B/ICP)PD6" pad="15"/>
+<connect gate="G$1" pin="(PCINT31/OC2A)PD7" pad="16"/>
+<connect gate="G$1" pin="(PCINT4/ADC4)PA4" pad="33"/>
+<connect gate="G$1" pin="(PCINT5/ADC5)PA5" pad="32"/>
+<connect gate="G$1" pin="(PCINT6/ADC6)PA6" pad="31"/>
+<connect gate="G$1" pin="(PCINT7/ADC7)PA7" pad="30"/>
+<connect gate="G$1" pin="(PCINT8/XCK0/T0)PB0" pad="40"/>
+<connect gate="G$1" pin="(PCINT9/CLKO/T1)PB1" pad="41"/>
+<connect gate="G$1" pin="AREF" pad="29"/>
+<connect gate="G$1" pin="AVCC" pad="27"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="GND@1" pad="18"/>
+<connect gate="G$1" pin="GND@2" pad="28"/>
+<connect gate="G$1" pin="GND@3" pad="39"/>
+<connect gate="G$1" pin="RESET" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+<connect gate="G$1" pin="VCC@1" pad="17"/>
+<connect gate="G$1" pin="VCC@2" pad="38"/>
+<connect gate="G$1" pin="XTAL1" pad="8"/>
+<connect gate="G$1" pin="XTAL2" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="ATMEGA644PV-10AU" constant="no"/>
+<attribute name="OC_FARNELL" value="1455123" constant="no"/>
+<attribute name="OC_NEWARK" value="58M3748" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16126,7 +16134,7 @@ Amphenol FCI 10118194-0001LF</description>
 <part name="J1" library="adi-misc" deviceset="USB_MICRO_B_2.0-TH" device="" value="Micro USB"/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
-<part name="IC2" library="adilinden" deviceset="ATMEGA1284P" device="-AU" value="ATMEGA1284AU"/>
+<part name="U2" library="adi-atmega" deviceset="ATMEGA1284P" device="-AU" value="ATMEGA1284AU"/>
 <part name="U1" library="SparkFun" deviceset="ATMEGA8U2" device="AU"/>
 <part name="F1" library="adilinden" deviceset="PTCFUSE" device="-0805" value="500mA"/>
 <part name="C5" library="rcl" deviceset="C-US" device="C0805" value="0.01u"/>
@@ -16237,7 +16245,7 @@ Amphenol FCI 10118194-0001LF</description>
 </instance>
 <instance part="GND30" gate="1" x="231.14" y="152.4"/>
 <instance part="GND31" gate="1" x="231.14" y="12.7"/>
-<instance part="IC2" gate="G$1" x="172.72" y="71.12"/>
+<instance part="U2" gate="G$1" x="172.72" y="71.12"/>
 <instance part="U1" gate="G$1" x="55.88" y="63.5"/>
 <instance part="F1" gate="G$1" x="38.1" y="167.64"/>
 <instance part="C5" gate="G$1" x="45.72" y="162.56"/>
@@ -16362,7 +16370,7 @@ Amphenol FCI 10118194-0001LF</description>
 <junction x="109.22" y="35.56"/>
 <label x="99.06" y="93.98" size="1.778" layer="95"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<pinref part="IC2" gate="G$1" pin="RESET"/>
+<pinref part="U2" gate="G$1" pin="RESET"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="S1" gate="S" pin="2"/>
 <pinref part="S1" gate="S" pin="1"/>
@@ -16494,11 +16502,11 @@ Amphenol FCI 10118194-0001LF</description>
 <junction x="142.24" y="27.94"/>
 <junction x="142.24" y="30.48"/>
 <junction x="142.24" y="33.02"/>
-<pinref part="IC2" gate="G$1" pin="GND@3"/>
+<pinref part="U2" gate="G$1" pin="GND@3"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<pinref part="IC2" gate="G$1" pin="GND"/>
-<pinref part="IC2" gate="G$1" pin="GND@1"/>
-<pinref part="IC2" gate="G$1" pin="GND@2"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="GND@1"/>
+<pinref part="U2" gate="G$1" pin="GND@2"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -16613,7 +16621,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
 <label x="208.28" y="109.22" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT5/ADC5)PA5"/>
+<pinref part="U2" gate="G$1" pin="(PCINT5/ADC5)PA5"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -16625,7 +16633,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="106.68" x2="208.28" y2="106.68" width="0.1524" layer="91"/>
 <label x="208.28" y="106.68" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT4/ADC4)PA4"/>
+<pinref part="U2" gate="G$1" pin="(PCINT4/ADC4)PA4"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -16637,7 +16645,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="104.14" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
 <label x="208.28" y="104.14" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT3/ADC3)PA3"/>
+<pinref part="U2" gate="G$1" pin="(PCINT3/ADC3)PA3"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -16649,7 +16657,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="101.6" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
 <label x="208.28" y="101.6" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT2/ADC2)PA2"/>
+<pinref part="U2" gate="G$1" pin="(PCINT2/ADC2)PA2"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -16661,7 +16669,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
 <label x="208.28" y="99.06" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT1/ADC1)PA1"/>
+<pinref part="U2" gate="G$1" pin="(PCINT1/ADC1)PA1"/>
 </segment>
 </net>
 <net name="A5" class="0">
@@ -16673,7 +16681,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="96.52" x2="208.28" y2="96.52" width="0.1524" layer="91"/>
 <label x="208.28" y="96.52" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT0/ADC0)PA0"/>
+<pinref part="U2" gate="G$1" pin="(PCINT0/ADC0)PA0"/>
 </segment>
 </net>
 <net name="D0" class="0">
@@ -16689,7 +16697,7 @@ Amphenol FCI 10118194-0001LF</description>
 <wire x1="203.2" y1="12.7" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
 <junction x="203.2" y="27.94"/>
 <label x="208.28" y="27.94" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT24/RXD0)PD0"/>
+<pinref part="U2" gate="G$1" pin="(PCINT24/RXD0)PD0"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -16706,7 +16714,7 @@ Amphenol FCI 10118194-0001LF</description>
 <wire x1="200.66" y1="17.78" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
 <junction x="200.66" y="30.48"/>
 <label x="208.28" y="30.48" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT25/TXD0)PD1"/>
+<pinref part="U2" gate="G$1" pin="(PCINT25/TXD0)PD1"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -16719,7 +16727,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="33.02" x2="208.28" y2="33.02" width="0.1524" layer="91"/>
 <label x="208.28" y="33.02" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT26/RXD1/INT0)PD2"/>
+<pinref part="U2" gate="G$1" pin="(PCINT26/RXD1/INT0)PD2"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -16731,7 +16739,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="35.56" x2="208.28" y2="35.56" width="0.1524" layer="91"/>
 <label x="208.28" y="35.56" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT27/TXD1/INT1)PD3"/>
+<pinref part="U2" gate="G$1" pin="(PCINT27/TXD1/INT1)PD3"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -16743,7 +16751,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="38.1" x2="208.28" y2="38.1" width="0.1524" layer="91"/>
 <label x="208.28" y="38.1" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT28/OC1B)PD4"/>
+<pinref part="U2" gate="G$1" pin="(PCINT28/OC1B)PD4"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -16755,7 +16763,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="40.64" x2="208.28" y2="40.64" width="0.1524" layer="91"/>
 <label x="208.28" y="40.64" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT29/OC1A)PD5"/>
+<pinref part="U2" gate="G$1" pin="(PCINT29/OC1A)PD5"/>
 </segment>
 </net>
 <net name="D8" class="0">
@@ -16767,7 +16775,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="78.74" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
 <label x="208.28" y="78.74" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT10/INT2/AIN0)PB2"/>
+<pinref part="U2" gate="G$1" pin="(PCINT10/INT2/AIN0)PB2"/>
 </segment>
 </net>
 <net name="D9" class="0">
@@ -16779,7 +16787,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
 <label x="208.28" y="81.28" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT11/OC0A/AIN1)PB3"/>
+<pinref part="U2" gate="G$1" pin="(PCINT11/OC0A/AIN1)PB3"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -16794,7 +16802,7 @@ Amphenol FCI 10118194-0001LF</description>
 <wire x1="134.62" y1="55.88" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
 <junction x="134.62" y="58.42"/>
 <label x="124.46" y="58.42" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="AREF"/>
+<pinref part="U2" gate="G$1" pin="AREF"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -16807,7 +16815,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="88.9" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
 <label x="208.28" y="88.9" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT14/OC3A/MISO)PB6"/>
+<pinref part="U2" gate="G$1" pin="(PCINT14/OC3A/MISO)PB6"/>
 </segment>
 <segment>
 <wire x1="233.68" y1="30.48" x2="220.98" y2="30.48" width="0.1524" layer="91"/>
@@ -16824,7 +16832,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="91.44" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
 <label x="208.28" y="91.44" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT15/OC3B/SCK)PB7"/>
+<pinref part="U2" gate="G$1" pin="(PCINT15/OC3B/SCK)PB7"/>
 </segment>
 <segment>
 <wire x1="233.68" y1="27.94" x2="220.98" y2="27.94" width="0.1524" layer="91"/>
@@ -16841,7 +16849,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
 <label x="208.28" y="86.36" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT13/MOSI)PB5"/>
+<pinref part="U2" gate="G$1" pin="(PCINT13/MOSI)PB5"/>
 </segment>
 <segment>
 <wire x1="233.68" y1="33.02" x2="220.98" y2="33.02" width="0.1524" layer="91"/>
@@ -16858,7 +16866,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="43.18" x2="208.28" y2="43.18" width="0.1524" layer="91"/>
 <label x="208.28" y="43.18" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT30/OC2B/ICP)PD6"/>
+<pinref part="U2" gate="G$1" pin="(PCINT30/OC2B/ICP)PD6"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -16870,7 +16878,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="45.72" x2="208.28" y2="45.72" width="0.1524" layer="91"/>
 <label x="208.28" y="45.72" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT31/OC2A)PD7"/>
+<pinref part="U2" gate="G$1" pin="(PCINT31/OC2A)PD7"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -17028,10 +17036,10 @@ Amphenol FCI 10118194-0001LF</description>
 <junction x="134.62" y="114.3"/>
 <junction x="129.54" y="114.3"/>
 <junction x="119.38" y="114.3"/>
-<pinref part="IC2" gate="G$1" pin="VCC"/>
-<pinref part="IC2" gate="G$1" pin="AVCC"/>
-<pinref part="IC2" gate="G$1" pin="VCC@2"/>
-<pinref part="IC2" gate="G$1" pin="VCC@1"/>
+<pinref part="U2" gate="G$1" pin="VCC"/>
+<pinref part="U2" gate="G$1" pin="AVCC"/>
+<pinref part="U2" gate="G$1" pin="VCC@2"/>
+<pinref part="U2" gate="G$1" pin="VCC@1"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="P+5" gate="1" pin="VCC"/>
@@ -17126,7 +17134,7 @@ Amphenol FCI 10118194-0001LF</description>
 <wire x1="144.78" y1="81.28" x2="134.62" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="81.28" x2="127" y2="81.28" width="0.1524" layer="91"/>
 <junction x="134.62" y="81.28"/>
-<pinref part="IC2" gate="G$1" pin="XTAL1"/>
+<pinref part="U2" gate="G$1" pin="XTAL1"/>
 <pinref part="X2" gate="G$1" pin="P$2"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 </segment>
@@ -17136,7 +17144,7 @@ Amphenol FCI 10118194-0001LF</description>
 <wire x1="144.78" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
 <junction x="134.62" y="71.12"/>
-<pinref part="IC2" gate="G$1" pin="XTAL2"/>
+<pinref part="U2" gate="G$1" pin="XTAL2"/>
 <pinref part="X2" gate="G$1" pin="P$1"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 </segment>
@@ -17196,7 +17204,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="114.3" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
 <label x="208.28" y="114.3" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT7/ADC7)PA7"/>
+<pinref part="U2" gate="G$1" pin="(PCINT7/ADC7)PA7"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
@@ -17208,7 +17216,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
 <label x="208.28" y="111.76" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT6/ADC6)PA6"/>
+<pinref part="U2" gate="G$1" pin="(PCINT6/ADC6)PA6"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="104.14" x2="246.38" y2="104.14" width="0.1524" layer="91"/>
@@ -17220,7 +17228,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="68.58" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
 <label x="208.28" y="68.58" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT23/TOSC2)PC7"/>
+<pinref part="U2" gate="G$1" pin="(PCINT23/TOSC2)PC7"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="109.22" x2="246.38" y2="109.22" width="0.1524" layer="91"/>
@@ -17232,7 +17240,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="66.04" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
 <label x="208.28" y="66.04" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT22/TOSC1)PC6"/>
+<pinref part="U2" gate="G$1" pin="(PCINT22/TOSC1)PC6"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
@@ -17244,7 +17252,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="63.5" x2="208.28" y2="63.5" width="0.1524" layer="91"/>
 <label x="208.28" y="63.5" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT21/TDI)PC5"/>
+<pinref part="U2" gate="G$1" pin="(PCINT21/TDI)PC5"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="111.76" x2="246.38" y2="111.76" width="0.1524" layer="91"/>
@@ -17256,7 +17264,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="60.96" x2="208.28" y2="60.96" width="0.1524" layer="91"/>
 <label x="208.28" y="60.96" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT20/TDO)PC4"/>
+<pinref part="U2" gate="G$1" pin="(PCINT20/TDO)PC4"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="111.76" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
@@ -17273,7 +17281,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="53.34" x2="208.28" y2="53.34" width="0.1524" layer="91"/>
 <label x="208.28" y="53.34" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT17/SDA)PC1"/>
+<pinref part="U2" gate="G$1" pin="(PCINT17/SDA)PC1"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -17285,7 +17293,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="50.8" x2="208.28" y2="50.8" width="0.1524" layer="91"/>
 <label x="208.28" y="50.8" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT16/SCL)PC0"/>
+<pinref part="U2" gate="G$1" pin="(PCINT16/SCL)PC0"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -17310,7 +17318,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
 <label x="208.28" y="83.82" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT12/OC0B/!SS!)PB4"/>
+<pinref part="U2" gate="G$1" pin="(PCINT12/OC0B/!SS!)PB4"/>
 </segment>
 <segment>
 <wire x1="233.68" y1="35.56" x2="220.98" y2="35.56" width="0.1524" layer="91"/>
@@ -17340,7 +17348,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="55.88" x2="208.28" y2="55.88" width="0.1524" layer="91"/>
 <label x="208.28" y="55.88" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT18/TCK)PC2"/>
+<pinref part="U2" gate="G$1" pin="(PCINT18/TCK)PC2"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="114.3" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
@@ -17358,7 +17366,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="58.42" x2="208.28" y2="58.42" width="0.1524" layer="91"/>
 <label x="208.28" y="58.42" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT19/TMS)PC3"/>
+<pinref part="U2" gate="G$1" pin="(PCINT19/TMS)PC3"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="114.3" x2="246.38" y2="114.3" width="0.1524" layer="91"/>
@@ -17377,7 +17385,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="73.66" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
 <label x="208.28" y="73.66" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT8/XCK0/T0)PB0"/>
+<pinref part="U2" gate="G$1" pin="(PCINT8/XCK0/T0)PB0"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="106.68" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
@@ -17389,7 +17397,7 @@ Amphenol FCI 10118194-0001LF</description>
 <segment>
 <wire x1="198.12" y1="76.2" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
 <label x="208.28" y="76.2" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT9/CLKO/T1)PB1"/>
+<pinref part="U2" gate="G$1" pin="(PCINT9/CLKO/T1)PB1"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="106.68" x2="246.38" y2="106.68" width="0.1524" layer="91"/>
