@@ -16015,7 +16015,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C8" library="rcl" deviceset="C-US" device="C0805" value="0.1u"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="J6" library="adi-misc" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
+<part name="J3" library="adi-misc" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -16132,7 +16132,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <instance part="GND3" gate="1" x="15.24" y="73.66"/>
 <instance part="C8" gate="G$1" x="109.22" y="106.68"/>
 <instance part="GND14" gate="1" x="109.22" y="96.52"/>
-<instance part="J6" gate="CON" x="88.9" y="167.64" rot="R180"/>
+<instance part="J3" gate="CON" x="88.9" y="167.64" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -16306,7 +16306,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <segment>
 <wire x1="93.98" y1="167.64" x2="93.98" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="J6" gate="CON" pin="1"/>
+<pinref part="J3" gate="CON" pin="1"/>
 <wire x1="88.9" y1="167.64" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -17239,7 +17239,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="J6" gate="CON" pin="2"/>
+<pinref part="J3" gate="CON" pin="2"/>
 <pinref part="F2" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="170.18" x2="96.52" y2="170.18" width="0.1524" layer="91"/>
 </segment>
