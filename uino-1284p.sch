@@ -16021,7 +16021,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <sheet>
 <plain>
 <text x="172.72" y="137.16" size="3.81" layer="94" ratio="18">*uino-1284p</text>
-<text x="172.72" y="133.096" size="2.1844" layer="94" ratio="12">v1.2 2016/11/05</text>
+<text x="172.72" y="133.096" size="2.1844" layer="94" ratio="12">v1.3 2016/11/07</text>
 <text x="172.72" y="129.286" size="2.1844" layer="94" ratio="12">by Adi Linden</text>
 </plain>
 <instances>
