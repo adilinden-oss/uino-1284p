@@ -262,9 +262,8 @@
 <text x="54.102" y="8.001" size="1.27" layer="21" font="vector" ratio="16">ANALOG</text>
 <text x="37.846" y="43.561" size="1.27" layer="21" font="vector" ratio="16">DIGITAL (PWM #)</text>
 <text x="59.9484" y="38.4688" size="1.016" layer="21" font="vector" rot="R270">+</text>
-<text x="33.2862" y="23.6264" size="1.016" layer="21" font="vector">+</text>
+<text x="28.3088" y="20.5696" size="0.762" layer="21" font="vector" ratio="18" rot="R180">+</text>
 <text x="13.8386" y="8.1402" size="1.016" layer="21" font="vector" rot="R90">+</text>
-<text x="28.0714" y="15.8628" size="1.016" layer="21" font="vector" rot="R270">+</text>
 <text x="38.1" y="40.132" size="1.6764" layer="21" font="vector" ratio="18">*uino-1284p</text>
 <text x="38.1" y="38.481" size="1.016" layer="21" font="vector" ratio="12">v1.3 2016/11/07</text>
 <text x="38.1" y="36.957" size="1.016" layer="21" font="vector" ratio="12">by Adi Linden</text>
@@ -274,9 +273,9 @@
 <text x="55.3764" y="43.8028" size="1.27" layer="21" font="vector" ratio="16" rot="R270">TX1</text>
 <text x="57.912" y="43.815" size="1.27" layer="21" font="vector" ratio="16" rot="R270">RX1</text>
 <text x="30.988" y="7.112" size="1.27" layer="21" font="vector" ratio="16" rot="R90">I/O</text>
-<text x="14.224" y="17.018" size="1.016" layer="21" font="vector" ratio="12" rot="R90">USB</text>
-<text x="14.224" y="12.319" size="1.016" layer="21" font="vector" ratio="12" rot="R90">EXT</text>
-<text x="17.526" y="18.288" size="1.016" layer="21" font="vector" ratio="12" rot="R270">POWER</text>
+<text x="14.224" y="16.637" size="1.27" layer="21" font="vector" ratio="16" rot="R90">USB</text>
+<text x="14.224" y="11.938" size="1.27" layer="21" font="vector" ratio="16" rot="R90">EXT</text>
+<text x="17.526" y="18.796" size="1.27" layer="21" font="vector" ratio="16" rot="R270">POWER</text>
 <text x="0.5202" y="13.2124" size="1.27" layer="21" font="vector" ratio="16">6.4-15V</text>
 <hole x="66.04" y="35.56" drill="3.2"/>
 <hole x="66.04" y="7.62" drill="3.2"/>
@@ -287,6 +286,7 @@
 <circle x="9.398" y="4.572" radius="0.915809375" width="0.254" layer="21"/>
 <wire x1="8.89" y1="4.572" x2="9.906" y2="4.572" width="0.254" layer="21"/>
 <wire x1="9.398" y1="4.064" x2="9.398" y2="5.08" width="0.254" layer="21"/>
+<text x="25.1338" y="20.5696" size="0.762" layer="21" font="vector" ratio="18" rot="R180">+</text>
 </plain>
 <libraries>
 <library name="SparkFun">
