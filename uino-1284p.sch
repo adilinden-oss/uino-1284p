@@ -17180,7 +17180,7 @@ reflow soldering</description>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="SJ1" library="jumper" deviceset="SJ" device="" value="AUTO_RESET_EN"/>
+<part name="SJ1" library="jumper" deviceset="SJ" device=""/>
 <part name="C20" library="rcl" deviceset="C-US" device="C0805" value="0.1u"/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="J5" library="adilinden" deviceset="M05X2" device="" value="IO"/>
@@ -17197,7 +17197,7 @@ reflow soldering</description>
 <part name="J3" library="adi-misc" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
 <part name="Q1" library="transistor-fet" deviceset="MMBF0202P*" device="" technology="LT1" value=""/>
 <part name="D1" library="diode" deviceset="BZX384*" device="" value="6.2V"/>
-<part name="R10" library="rcl" deviceset="R-US_" device="R0805" value="1k"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="R0805" value="100k"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -17279,7 +17279,10 @@ reflow soldering</description>
 <instance part="D2" gate="G$1" x="129.54" y="104.14" rot="R90"/>
 <instance part="C13" gate="G$1" x="134.62" y="53.34"/>
 <instance part="GND21" gate="1" x="134.62" y="43.18"/>
-<instance part="S1" gate="S" x="116.84" y="30.48" rot="R270"/>
+<instance part="S1" gate="S" x="116.84" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="123.444" y="30.988" size="1.778" layer="95"/>
+<attribute name="VALUE" x="123.444" y="27.94" size="1.778" layer="96"/>
+</instance>
 <instance part="R13" gate="G$1" x="180.34" y="17.78" rot="R180"/>
 <instance part="R12" gate="G$1" x="165.1" y="12.7" rot="R180"/>
 <instance part="P+1" gate="1" x="15.24" y="124.46"/>
