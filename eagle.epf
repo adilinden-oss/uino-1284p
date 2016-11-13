@@ -463,7 +463,7 @@ UsedLibrary="/home/adi/eagle/lbr_user/dp/dp_devices.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="326 98 925 497"
+Loc="326 98 1233 497"
 State=2
 Number=0
 

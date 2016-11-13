@@ -11478,6 +11478,14 @@ Various Types</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,144.78,106.68,U3,AVCC,VCC,,,"/>
+<approved hash="104,1,134.62,167.64,U2,OUT,EVCC,,,"/>
+<approved hash="104,1,134.62,165.1,U2,OUT,EVCC,,,"/>
+<approved hash="106,1,233.68,167.64,3V3,,,,,"/>
+<approved hash="113,1,128.342,104.14,D7,,,,,"/>
+<approved hash="113,1,96.52,37.0755,SJ1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
