@@ -1,8 +1,8 @@
-##\*uino-1284p 
+## \*uino-1284p 
 
 \*uino-1284p is an Arduino compatible platform based on the Atmel ATmega1284P-AU microcontroller.
 
-###Licensing
+### Licensing
 
 This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License, CC BY-SA.
 
@@ -10,15 +10,15 @@ You are free to copy, distribute and transmit the work. You must attribute the w
 
 Please refer to [http://creativecommons.org/licenses/by-sa/3.0/] for the license.
 
-###Credit
+### Credit
 
-The *uino-1284p is derived from previous work done by:
+The \*uino-1284p is derived from previous work done by:
 
 - The Arduino team <http://arduino.cc/>
 
-###Details
+### Details
 
-The *uino-1284p board utilizes the ATmega1284P microcontroller. The main goal of this project is to be able to access more memory, both FLASH and RAM, while keeping the Arduino UNO compatible board size and I/O assignments.
+The \*uino-1284p board utilizes the ATmega1284P microcontroller. The main goal of this project is to be able to access more memory, both FLASH and RAM, while keeping the Arduino UNO compatible board size and I/O assignments.
 
 The ATmega1284P provides 128k of FLASH and 16k of RAM. It has 10 more I/O pins then the ATmega328P. The additional I/O pins are brought out to a 5x2 header in a non-standard Arduino position. The extra header pins are :
 
@@ -33,13 +33,13 @@ The design features a dedicated ATmega8U2 for USB connectivity. The circuit has 
 
 Power supply input for the board is selected via a jumper. Power supply options are USB bus powered or unregulated DC input. An onboard LDO regulator will accept an unregulated input voltage between 6.4V and 15V.
 
-###Arduino
+### Arduino
 
-The board is supported in Arduino IDE 1.6.x via the core files available at: [https://github.com/adilinden/uino-arduino]
+The board is supported in Arduino IDE 1.6.x via the core files available at: [adilinden-oss/uino-arduino](https://github.com/adilinden-oss/uino-arduino)
 
 To install clone uino-arduino into the hardware folder inside your Sketchbook folder. The board will then automagically appear in the Boards menu.
 
-###Pin Mapping
+### Pin Mapping
 
 ```
 *uino     ATmega1284p                     Function
